@@ -3,7 +3,7 @@
   "description": "common utils ",
   "type": "project",
   "require": {
-    "dsiddharth2/php-zxing": "dev-master",
+    "dsiddharth2/php-zxing": "1.*",
     "endroid/qr-code": "^1.9",
     "laravel/framework": "5.*",
     "guzzlehttp/guzzle": "^6.3",

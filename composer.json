@@ -1,0 +1,26 @@
+{
+  "name": "huojunhao/utils",
+  "description": "common utils ",
+  "type": "project",
+  "require": {
+    "dsiddharth2/php-zxing": "dev-master",
+    "endroid/qr-code": "^1.9",
+    "laravel/framework": "5.*",
+    "guzzlehttp/guzzle": "^6.3",
+    "ramsey/uuid": "^3.7",
+    "intervention/image": "^2.4"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^3.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "HuoUtils\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "HuoUtils\\Tests\\": "tests/"
+    }
+  }
+}

@@ -15,7 +15,7 @@ class MysqlMaintenance{
 
     public function __construct($mysql_conf=[])
     {
-        !$mysql_conf && $mysql_conf = config("database");
+        !$mysql_conf && $mysql_conf = config("database.connections.mysql");
         $this->database_name =$mysql_conf['database'];
         $this->username = $mysql_conf['username'] ;
         $this->password =$mysql_conf['password'] ;

@@ -13,6 +13,7 @@ class HttpUtil{
 
 //    连接参数字符串
     public static function concatParams($params,$out_array = []) {
+
         ksort($params);
         $pairs = array();
         foreach($params as $key=>$val) {

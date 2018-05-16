@@ -19,7 +19,7 @@ class MysqlMaintenance{
         $this->database_name =$mysql_conf['database'];
         $this->username = $mysql_conf['username'] ;
         $this->password =$mysql_conf['password'] ;
-        $this->save_path =isset($mysql_conf['database_backup_path']) ? : "/usr/local/mysql_backup";
+        $this->save_path =isset($mysql_conf['database_backup_path']) ? $mysql_conf['database_backup_path'] : "/usr/local/mysql_backup";
 //        if(!$this->save_path){
 //            throw new \Exception("配置database.connections.mysql.database_backup_path不存在");
 //        }

@@ -51,5 +51,19 @@ class FileUtil{
 
 
 
+//    下载文件
+
+    public static function download($content,$file_name)
+    {
+        header("Content-type:application/octet-stream");
+        header("Accept-Ranges:bytes");
+        header("Content-Disposition: attachment; filename=".$file_name);
+        echo $content;
+        exit();
+
+    }
+
+
+
 
 }

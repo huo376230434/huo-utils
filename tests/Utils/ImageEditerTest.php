@@ -19,8 +19,8 @@ class ImageEditerTest extends TestCase
         $img_path = __DIR__."/../res/QrcodeTestImg.jpg";
         $out_path = __DIR__."/../output/test_qrcode".microtime(true).".jpg";
 
-        $width = 40;
-        $height = 40;
+        $width = 140;
+        $height = 140;
         ImageEditer::reSize($img_path, $width, $height,$out_path);
 
         $result = false;

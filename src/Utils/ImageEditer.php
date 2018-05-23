@@ -13,7 +13,14 @@ class ImageEditer {
 
     public static function reSize($img_path, $width, $height,$dest_path=null)
     {
-        return  ImageManagerStatic::make($img_path)->resize($width  , $height)->save($dest_path);
+
+       $img = ImageManagerStatic::make($img_path);
+        $img->resize($width, $height, function ($constraint) {
+            $constraint->aspectRatio();
+            $constraint->upsize();
+        });
+
+        return  $img->save($dest_path);
     }
 
 

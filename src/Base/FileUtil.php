@@ -70,9 +70,9 @@ class FileUtil{
             while ( false !== ( $item = readdir( $handle ) ) ) {
                 if ( $item != "." && $item != ".." ) {
                     if ( is_dir( "$dir_name/$item" ) ) {
-                        self::rmTotalDir("$dir_name/$item" );
+                        self::rmDir("$dir_name/$item" );
                     } else {
-                        if( unlink( "$dir_name/$item"  && $echo)  ) {
+                        if( unlink( "$dir_name/$item" )  && $echo ) {
                            echo "成功删除文件： $dir_name/$item\n";
                         }
                     }

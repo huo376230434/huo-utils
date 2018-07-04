@@ -23,7 +23,8 @@ class FileUtilTest extends TestCase
         //测试文件夹删除
         $dir_path = __DIR__."/../output/Base";
 
-        FileUtil::rmDir($dir_path);
+        dd(FileUtil::allFile($dir_path,false,true));
+//        FileUtil::rmDir($dir_path);
 
 
 

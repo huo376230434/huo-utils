@@ -12,10 +12,10 @@ namespace HuoUtils\Base;
 class FileUtil{
 
 
-    public static function allFile($path,$has_all_attr=false)
+    public static function allFile($path,$has_all_attr=false,$stretch = false)
     {
 
-        $arr = self::getAllFileName($path);
+        $arr = self::getAllFileName($path,$stretch);
         if($has_all_attr){
 //            如果要拿到所有文件的属性
             foreach ($arr as $key => $value) {
@@ -34,13 +34,24 @@ class FileUtil{
         return $arr;
     }
 
-    protected static function getAllFileName($path)
+    protected static function getAllFileName($path,$stretch = false,$base_name = "")
     {
         $handler = opendir($path);//当前目录中的文件夹下的文件夹
         $arr = [];
         while( ($filename = readdir($handler)) !== false ) {
             if($filename != "." && $filename != ".."){
-                array_push($arr, $filename);
+
+                $temp_path = $path . "/" . $filename;
+                if ($stretch && is_dir($temp_path) ) {
+//如果要全部文件
+                    $base_filename = $base_name.$filename . "/";
+                    $arr = array_merge($arr, self::getAllFileName($temp_path,true ,$base_filename));
+
+                }else{
+                    array_push($arr, $base_name.$filename);
+
+                }
+
 //                echo $filename."<br>";
             }
         }
@@ -48,6 +59,7 @@ class FileUtil{
         return $arr;
 
     }
+
 
 
 

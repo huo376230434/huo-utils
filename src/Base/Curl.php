@@ -25,11 +25,25 @@ class Curl {
 
         $curl_response = $client->post($url, $options);
         if($curl_response->getStatusCode() !== 200){
-            return false;
+            throw new \Exception($url."post请求出错" );
         }
 
         return $curl_response->getBody();
 
+    }
+
+
+    public static function get($url,$time_out = 5)
+    {
+        $client = new Client([
+            'timeout' =>$time_out
+        ]);
+        $curl_response = $client->get( $url);
+
+        if($curl_response->getStatusCode() !== 200){
+            throw new \Exception($url."get请求出错" );
+        }
+        return $curl_response->getBody();
     }
 
 

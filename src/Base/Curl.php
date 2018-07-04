@@ -13,7 +13,7 @@ use GuzzleHttp\Client;
 
 class Curl {
 
-    public static function post($url,$data,$content_type="form_params",$time_out=5)
+    public static function post($url,$data = [],$content_type="form_params",$time_out=5)
     {
 
         //        发送请求

@@ -10,10 +10,10 @@ trait UnitTestTrait {
     {
         //为调试模式 才可以
 
-        if(config('app.debug')){
+        if(config('app.debug') && config('app.env') =="testing"){
             return true;
         }else{
-            throw new \Exception("调试模式才能测试");
+            throw new \Exception("调试模式且phpunit执行才能测试");
         }
 
     }

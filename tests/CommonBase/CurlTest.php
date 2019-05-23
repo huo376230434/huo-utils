@@ -4,10 +4,18 @@ namespace HuoUtils\Test\CommonBase;
 
 
 
-use App\Lib\Common\CommonBase\Curl;
-use App\Lib\Common\CommonBase\FormatConversion;
-use Tests\TestCase;
 
+
+
+
+use HuoUtils\CommonBase\Curl;
+use HuoUtils\CommonBase\FormatConversion;
+
+/**
+ *
+ * Trait CurlTest
+ * @package HuoUtils\Test\CommonBase
+ */
 trait CurlTest
 {
 
@@ -22,6 +30,7 @@ trait CurlTest
         $res = Curl::post("https://www.apiopen.top/weatherApi",['city' => "深圳"]);
         $res = FormatConversion::jsonDecode($res);
 
+        /** @var TestCase $this */
         $this->assertArrayHasKey('code', $res);
     }
 

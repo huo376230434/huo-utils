@@ -2,12 +2,12 @@
 
 namespace HuoUtils\Test\ThirdUtils;
 
-use App\Lib\Common\ThirdUtils\ExtractQrcode;
-use Illuminate\Support\Facades\Artisan;
-use Tests\TestCase;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Illuminate\Foundation\Testing\DatabaseTransactions;
-use Zxing\QrReader;
+
+
+
+
+
+
 
 trait QrcodedDecodeTest
 {

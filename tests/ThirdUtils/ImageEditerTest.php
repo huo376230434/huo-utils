@@ -2,10 +2,10 @@
 
 namespace HuoUtils\Test\ThirdUtils;
 
-use App\Lib\Common\ThirdUtils\ImageEditer;
-use Illuminate\Foundation\Testing\WithFaker;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Tests\TestCase;
+
+
+
+
 
 trait ImageEditerTest
 {

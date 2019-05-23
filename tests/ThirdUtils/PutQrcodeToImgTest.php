@@ -3,8 +3,8 @@
 namespace HuoUtils\Test\ThirdUtils;
 
 
-use App\Lib\Common\ThirdUtils\PutQrcodeToImg;
-use Tests\TestCase;
+
+
 
 trait PutQrcodeToImgTest
 {

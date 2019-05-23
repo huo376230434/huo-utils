@@ -4,11 +4,13 @@ namespace HuoUtils\Test\CommonBase;
 
 
 
-use App\Lib\Common\CommonBase\FileUtil;
-use App\Lib\Common\CommonBase\Util;
-use Illuminate\Foundation\Testing\WithFaker;
-use Illuminate\Foundation\Testing\RefreshDatabase;
-use Tests\TestCase;
+
+
+
+
+
+
+use HuoUtils\CommonBase\FileUtil;
 
 trait FileUtilTest
 {

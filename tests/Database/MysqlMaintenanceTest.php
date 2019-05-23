@@ -2,10 +2,13 @@
 
 namespace HuoUtils\Test\Database;
 
-use App\Lib\Common\ThirdUtils\MysqlMaintenance;
-use Tests\TestCase;
-use Illuminate\Foundation\Testing\WithFaker;
-use Illuminate\Foundation\Testing\RefreshDatabase;
+
+
+
+
+
+use HuoUtils\Database\MysqlMaintenance;
+use PHPUnit\Framework\TestCase;
 
 trait MysqlMaintenanceTest
 {
@@ -22,6 +25,7 @@ trait MysqlMaintenanceTest
 
 //测试备份
         $result = $sql_obj->backup();
+        /** @var TestCase $this */
         $this->assertTrue(is_file($result['full_name']));
 
 

@@ -2,62 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbaf49c3-5c2d-452c-91fd-960fd8ce315e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CommonBase/FileUtil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonBase/FormatConversion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonBase/RegPatterns.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommonBase/ScatteredUtil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Database/MysqlMaintenance.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dictionary/BaseDict.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dictionary/Dwfaker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dictionary/FakerTraits/CurrentAppFaker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dictionary/FakerTraits/FakerSentence.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Dictionary/JsonResult.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Route/RouteUtil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThirdUtils/ExtractQrcode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThirdUtils/LibreOffice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThirdUtils/RarCli.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThirdUtils/Win32PY.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/Env.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CommonBase/CsvExportTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CommonBase/CurlTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CommonBase/EchartDataTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CommonBase/FileUtilTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CommonBase/FormatConversionTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/CommonBase/ScatteredUtilTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Database/MysqlMaintenanceTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ThirdUtils/ImageEditerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ThirdUtils/LibreOfficeTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ThirdUtils/PutQrcodeToImgTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ThirdUtils/QrcodedDecodeTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ThirdUtils/RouteUtilTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/huo-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/huo-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Base/CsvExport.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonBase/CsvExport.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Base/Curl.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonBase/Curl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Base/Echart.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonBase/EchartData.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Base/FileUtil.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Base/HttpUtil.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Base/Json.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Base/SignUtil.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CommonBase/SignUtil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Base/Util.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/ExtractQrcodeFromImg.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/ImageEditer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThirdUtils/ImageEditer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/MysqlMaintenance.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utils/PutQrcodeToImg.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThirdUtils/PutQrcodeToImg.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UtilsTrait/LimitlessSortTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UtilsTrait/LimitlessSortTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UtilsTrait/UnitTestTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/UtilsTrait/UnitTestTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Base/CsvExportTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Base/CurlTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Base/FileUtilTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Base/UtilTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Utils/ExtractQrcodeFromImgTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Utils/ImageEditerTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Utils/MysqlMaintenanceTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Utils/PutQrcodeToImgTest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/output/test_qrcode1526447641.7714.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/output/test_qrcode1526450970.4778.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/output/测试csv1526449766.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/output/测试csv1526449846.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/res/QrcodeTestImg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CommonBase/CsvExportTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CommonBase/CsvExportTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CommonBase/CurlTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CommonBase/CurlTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CommonBase/EchartDataTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CommonBase/EchartDataTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CommonBase/FileUtilTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CommonBase/FileUtilTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CommonBase/FormatConversionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CommonBase/FormatConversionTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/CommonBase/ScatteredUtilTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/CommonBase/ScatteredUtilTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Database/MysqlMaintenanceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Database/MysqlMaintenanceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ThirdUtils/ImageEditerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ThirdUtils/ImageEditerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ThirdUtils/LibreOfficeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ThirdUtils/LibreOfficeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ThirdUtils/PutQrcodeToImgTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ThirdUtils/PutQrcodeToImgTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ThirdUtils/QrcodedDecodeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ThirdUtils/QrcodedDecodeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ThirdUtils/RouteUtilTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ThirdUtils/RouteUtilTest.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/vendor/composer/" />
     <ignored path="$PROJECT_DIR$/vendor/doctrine/inflector/" />
@@ -145,26 +106,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="380">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CommonBase/Curl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-            </state>
-          </provider>
+        <entry file="https://schemastore.azurewebsites.net/schemas/json/composer.json">
+          <provider selected="true" editor-type-id="httpFileEditor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/CommonBase/CsvExport.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+            <state relative-caret-position="209">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -172,8 +129,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/CommonBase/CurlTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="171">
+              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <folding>
+                <element signature="e#50#79#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,32 +141,52 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/CommonBase/CsvExportTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            <state relative-caret-position="342">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Database/MysqlMaintenanceTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
               <folding>
-                <element signature="e#47#87#0#PHP" expanded="true" />
+                <element signature="e#47#86#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Database/MysqlMaintenance.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Utils/Env.php">
+        <entry file="file://$PROJECT_DIR$/tests/CommonBase/ScatteredUtilTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="361">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+              <folding>
+                <element signature="e#47#85#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UtilsTrait/LimitlessSortTrait.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/tests/CommonBase/FormatConversionTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-301">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/CommonBase/FileUtilTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -220,14 +200,32 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>class (.*) extends TestCase</find>
+      <find>use\s(.*)</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>trait $1</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\work\php\base\github\laravel-utils\tests</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/tests/CommonBase/CsvExportTest.php" />
+        <option value="$PROJECT_DIR$/tests/CommonBase/CurlTest.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/tests/Database/MysqlMaintenanceTest.php" />
+        <option value="$PROJECT_DIR$/tests/CommonBase/ScatteredUtilTest.php" />
+        <option value="$PROJECT_DIR$/tests/CommonBase/FormatConversionTest.php" />
+        <option value="$PROJECT_DIR$/tests/CommonBase/FileUtilTest.php" />
       </list>
     </option>
   </component>
@@ -236,7 +234,6 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
-      <path value="$PROJECT_DIR$/vendor/dsiddharth2/php-zxing" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
@@ -246,7 +243,6 @@
       <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
       <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
@@ -254,9 +250,7 @@
       <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
       <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
       <path value="$PROJECT_DIR$/vendor/phar-io/version" />
-      <path value="$PROJECT_DIR$/vendor/orchestra/testbench" />
       <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
-      <path value="$PROJECT_DIR$/vendor/orchestra/testbench-core" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
       <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
       <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
@@ -305,10 +299,22 @@
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
       <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/dsiddharth2/php-zxing" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/khanamiryan/qrcode-detector-decoder" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/contracts" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="666" />
+    <option name="x" value="665" />
     <option name="y" value="135" />
     <option name="width" value="1350" />
     <option name="height" value="690" />
@@ -385,6 +391,12 @@
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="CommonBase" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="laravel-utils" type="b2602c69:ProjectViewProjectNode" />
+              <item name="laravel-utils" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Database" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -413,6 +425,12 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -425,17 +443,17 @@
       <updated>1558578469216</updated>
       <workItem from="1558578470561" duration="260000" />
       <workItem from="1558579080756" duration="242000" />
+      <workItem from="1558579628715" duration="955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="502000" />
+    <option name="totallyTimeSpent" value="1457000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -450,7 +468,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -491,20 +509,6 @@
     <entry file="file://$PROJECT_DIR$/src/UtilsTrait/LimitlessSortTrait.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommonBase/CsvExport.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CommonBase/CurlTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UtilsTrait/UnitTestTrait.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -512,20 +516,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommonBase/CsvExport.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CommonBase/CurlTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+          <folding>
+            <element signature="e#50#79#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="https://schemastore.azurewebsites.net/schemas/json/composer.json">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/CommonBase/CsvExportTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="342">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Database/MysqlMaintenanceTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
           <folding>
-            <element signature="e#47#87#0#PHP" expanded="true" />
+            <element signature="e#47#86#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CommonBase/ScatteredUtilTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="e#47#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CommonBase/FormatConversionTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-301">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CommonBase/FileUtilTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="74" column="9" lean-forward="true" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="380">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -2,9 +2,9 @@
 
 namespace HuoUtils\Test\CommonBase;
 
-use Tests\TestCase;
-use Illuminate\Foundation\Testing\WithFaker;
-use Illuminate\Foundation\Testing\RefreshDatabase;
+
+
+
 
 trait EchartDataTest
 {

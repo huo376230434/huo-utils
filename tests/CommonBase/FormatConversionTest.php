@@ -2,8 +2,10 @@
 
 namespace HuoUtils\Test\CommonBase;
 
-use App\Lib\Common\CommonBase\FormatConversion;
-use Tests\TestCase;
+
+
+
+use HuoUtils\CommonBase\FormatConversion;
 
 trait FormatConversionTest
 {

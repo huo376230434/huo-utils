@@ -9,7 +9,7 @@ trait LimitlessSortTrait {
 //    以下五个方法是以前项目用的，放在这里备用
 
     //组合一维数组
-     Public function unlimitedForLevel($cate,$html='',$pid=0,$level=0,$pid_name="pid",$id_name='id'){
+     Public static function unlimitedForLevel($cate,$html='',$pid=0,$level=0,$pid_name="pid",$id_name='id'){
          !$html && $html='&nbsp;&nbsp;--';
          $arr = array();
         foreach($cate  as $val){
@@ -28,19 +28,34 @@ trait LimitlessSortTrait {
 
 
     //组合多维数组
-     Public function unlimitedForLayer($cate,$pid=0,$pid_name="pid",$id_name='id'){
+     Public static  function unlimitedForLayer($cate,$pid=0,$pid_name="pid",$id_name='id'){
         $arr = array();
         foreach($cate as $v){
             if($v[$pid_name]==$pid){
-                $v['child']=self::unlimitedForLayer($cate,$v[$id_name],$pid_name,$id_name);
+                $v['children']=self::unlimitedForLayer($cate,$v[$id_name],$pid_name,$id_name);
                 $arr[]=$v;
             }
         }
         return $arr;
     }
 
+
+    //组合多维集合
+    Public static  function unlimitedForLayerCollect($cate,$pid=0,$pid_name="pid",$id_name='id'){
+        $arr = collect();
+        foreach($cate as $v){
+            if($v->$pid_name==$pid){
+                $v->children=self::unlimitedForLayer($cate,$v->$id_name,$pid_name,$id_name);
+//                $arr[]=$v;
+                $arr->push($v);
+            }
+        }
+        return $arr;
+    }
+
+
     //传递一个子分类ID返回所有的父级分类，包括自身
-     Public function getUnlimitedParents($cate,$id,$pid_name="pid",$id_name='id'){
+     Public static function getUnlimitedParents($cate,$id,$pid_name="pid",$id_name='id'){
         $arr=array();
         foreach($cate as $v){
             if($v[$id_name]==$id){
@@ -52,7 +67,7 @@ trait LimitlessSortTrait {
     }
 
     //传递一个子分类ID返回所有的父级ID，包括自身
-     Public function getUnlimitedParentIds($cate,$id,$pid_name="pid",$id_name='id'){
+     Public  static function getUnlimitedParentIds($cate,$id,$pid_name="pid",$id_name='id'){
         $arr=array();
         foreach($cate as $v){
             if($v[$id_name]==$id){
@@ -65,7 +80,7 @@ trait LimitlessSortTrait {
 
 
     //传递一个父级ID返回所有子分类ID
-     Public function getUnlimitedChildsId($cate,$pid,$pid_name="pid",$id_name='id'){
+     Public  static function getUnlimitedChildsId($cate,$pid,$pid_name="pid",$id_name='id'){
         $arr = array();
         foreach($cate as $v){
             if($v[$pid_name]==$pid){
@@ -77,7 +92,7 @@ trait LimitlessSortTrait {
     }
 
     //传递一个父级ID返回所有子分类
-     Public function getUnlimitedChilds($cate,$pid,$pid_name="pid",$id_name='id'){
+     Public static function getUnlimitedChilds($cate,$pid,$pid_name="pid",$id_name='id'){
         $arr = array();
         foreach($cate as $v){
             if($v[$pid_name]==$pid){

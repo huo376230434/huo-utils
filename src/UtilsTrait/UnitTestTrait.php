@@ -6,6 +6,10 @@ namespace HuoUtils\UtilsTrait;
 trait UnitTestTrait {
 
 
+    /**
+     * @return bool
+     * @throws \Exception
+     */
     protected function canTest()
     {
         //为调试模式 才可以
@@ -19,7 +23,13 @@ trait UnitTestTrait {
     }
 
 
-    public function test($fun_name,...$string)
+    /**
+     * @param $fun_name
+     * @param mixed ...$string
+     * @return mixed
+     * @throws \Exception
+     */
+    public function test($fun_name, ...$string)
     {
         if ($this->canTest()) {
             return $this->$fun_name(...$string);
@@ -29,7 +39,12 @@ trait UnitTestTrait {
     }
 
 
-    public function __set($name,$value){
+    /**
+     * @param $name
+     * @param $value
+     * @throws \Exception
+     */
+    public function __set($name, $value){
 
         if ($this->canTest()) {
             $this->$name = $value;
@@ -39,6 +54,11 @@ trait UnitTestTrait {
     }
 
 
+    /**
+     * @param $name
+     * @return mixed
+     * @throws \Exception
+     */
     public function __get($name)
     {
         if ($this->canTest()) {
